@@ -39,7 +39,7 @@ function App() {
       setmode('dark');
       document.body.style.backgroundColor='#144a47';
       showalert("drak mode enable ","success")
-      document.title='TextInfo-dark Mode';
+      document.title='WorkWithText-dark Mode';
          /* setInterval(() => {
             document.title='TextInfo is very amazing Mode';
           }, 2000);
@@ -53,7 +53,7 @@ function App() {
       setmode('light');
       document.body.style.backgroundColor='white';
       showalert("light mode enable ","success")
-      document.title='TextInfo-Light Mode';
+      document.title='WorkWithText-Light Mode';
     }
   }
   return (
@@ -68,7 +68,7 @@ function App() {
        <Alert alert={alert}/>
          <div className='container my-3'>
            <Routes>
-            <Route  path="/Text_changer" element={<Text heading="Enter the text " showalert={showalert} mode={mode}/> }/>
+            <Route  path="/Text-master" element={<Text heading="Enter the text " showalert={showalert} mode={mode}/> }/>
            </Routes>
          
          </div> 
